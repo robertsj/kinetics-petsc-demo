@@ -1,0 +1,8 @@
+# Flush the cache
+rm CMakeCache.txt
+
+# Configure
+cmake                                       \
+-G "Eclipse CDT4 - Unix Makefiles"          \
+-D CMAKE_BUILD_TYPE=Release                   \
+/home/robertsj/Research/petsc_tc/source
